@@ -22,6 +22,23 @@ For example...
 java -jar PanoptoFolderCreator panoptoserver.example.com admin password Q1213-COM1001
 </pre>
 
+Folder defaults
+---------------
+
+It's likely you will want to change the defaults of the folders created (we did!), you can do this in FolderCreatorTool.java by changing these lines...
+
+<pre>
+        AddFolder af = new AddFolder();
+        af.setAuth(this.auth);
+        af.setIsPublic(false);		<---
+        af.setName(name);		<--- CHANGE THESE LINES
+        af.setParentFolder(null);	<---
+</pre>
+
+...to whatever you like.
+
+If you were really feeling adventurous, it probably wouldn't be too hard to make these settings specifiable on the command line by changing a few lines here and there, but since we had a very strict default for ALL folders, this was enough for us :)
+
 Slight nuance
 -------------
 
