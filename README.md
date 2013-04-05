@@ -42,4 +42,4 @@ If you were really feeling adventurous, it probably wouldn't be too hard to make
 Slight nuance
 -------------
 
-In our testing we noticed a strange nuance, when you create a folder the API call is succesfully sent and the folder "is" being create**d** but often isn't **visible** in the Panopto GUI for a short period of time (seconds), but a lot longer than you would expect for such a seemingly simple API call(???)
+In our testing we noticed a strange nuance... when you create a folder, the API call is succesfully sent and the folder "is" being create*d* but often isn't **visible** in the Panopto GUI for a short period of time (seconds), but a lot longer than you would expect for such a seemingly simple API call(???)
