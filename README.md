@@ -30,9 +30,9 @@ It's likely you will want to change the defaults of the folders created (we did!
 <pre>
         AddFolder af = new AddFolder();
         af.setAuth(this.auth);
-        af.setIsPublic(false);		<---
-        af.setName(name);		<--- CHANGE THESE LINES
-        af.setParentFolder(null);	<---
+        af.setIsPublic(false);		&lt;---
+        af.setName(name);		&lt;-- CHANGE THESE LINES
+        af.setParentFolder(null);	&lt;---
 </pre>
 
 ...to whatever you like.
